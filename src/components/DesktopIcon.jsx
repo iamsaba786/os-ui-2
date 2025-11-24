@@ -7,7 +7,7 @@ function DesktopIcon({ name, icon, onDoubleClick }) {
       className="desktop-icon flex flex-col items-center text-xs hover:scale-105 transition duration-200 cursor-pointer"
     >
       <img src={icon} alt={name} className="w-9 h-9" />
-      <span>{name}</span>
+      <span className="text-white">{name}</span>
     </button>
   );
 }
